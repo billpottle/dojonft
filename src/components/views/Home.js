@@ -202,8 +202,8 @@ const Home = () => {
           </p>
           <h4>I like most of this but I want to change something</h4>
           <p>
-            The code is open source and free for you to use for any purpose!
-            Fork the project at github{" "}
+                      The code is open source and free for you to use for any purpose!
+            Fork the project at the <a href="https://github.com/billpottle/dojonft">github repo page</a>
           </p>
           <p>
             {" "}
