@@ -7,5 +7,11 @@ If you would like to run the tool locally, just clone the repo and run
 
 ```
 npm install
+```
+and then 
 
 ```
+npm start
+```
+
+Pull requests are welcome! If you find any issues, please report them on the issues page. 
