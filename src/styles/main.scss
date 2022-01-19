@@ -1,0 +1,273 @@
+@import 'theme';
+
+.body {
+  background-color: $body-color;
+}
+
+.flippening {
+
+  /* Semantic Override */
+  //.header {
+  //  border: 4px solid $accent-color;
+  //  background-color: $primary-color;
+  //  color: $accent-color!important;
+  //}
+
+
+  .info-segment {
+    background-color: $primary-color!important;
+    color: $accent-color!important;
+    border-color: $accent-color!important;
+    border-width: 4px!important;
+    border-style: solid!important;
+  }
+
+  /* GENERAL */
+  .page-header {
+    border-width: 4px 4px 0 4px!important;
+    border-style: solid!important;
+    border-color: $accent-color!important;
+    background-color: #7a02d7!important;
+    color: $accent-color!important;
+  }
+
+  /* HEADER */
+  .main-header {
+    margin-bottom: 10px;
+    border: 0!important;
+
+    .main.menu {
+      margin: 10px 0 10px 0;
+
+      .wallet-not-connected {
+        cursor: default;
+      }
+    }
+
+    .menu {
+      background-color: $accent-color;
+    }
+
+    .wallet-item {
+      .button {
+        background-color: $primary-color;
+        color: $accent-color!important;
+        border-color: $accent-color!important;
+        border-width: 1px!important;
+        border-style: solid;
+
+        &.invalid-network {
+          background-color: #db2828!important;
+        }
+      }
+    }
+
+    .eth-btc-label {
+      margin-left:0!important;
+
+      .detail {
+        background: unset!important;
+      }
+    }
+
+    .meta-mask-btn {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .wallet-not-connected {
+      background-color: #f2711c!important;
+      cursor: default;
+    }
+
+    .logged-in-button {
+      background-color: #4caf50 !important;
+      cursor: default;
+    }
+
+    .menu-price-item {
+      flex: 1 0 auto!important;
+      justify-content: space-between;
+      align-items: start!important;
+
+      .eth-btc-ratio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  /* Flippening NFT TITLE */
+  .title {
+    background-color: black!important;
+    border: 0!important;
+    font-size: 3em!important;
+  }
+
+  /* Home */
+  .filter.container,
+  .weekly.container
+  {
+    margin-top: 10px!important;
+  }
+
+  .buy-token-container {
+    text-align: center!important;
+  }
+
+  .token-months-buttons {
+    .segment {
+      border-width: 2px;
+    }
+
+    .button {
+      background-color: $primary-color;
+      color: $accent-color!important;
+      border-color: $accent-color!important;
+      border-width: 1px!important;
+      border-style: solid;
+    }
+  }
+
+  .token-months-grid {
+    .month-column {
+        margin-bottom: 30px!important;
+    }
+
+    .header {
+      border-width: 1px 1px 1px 1px!important;
+      background-color: $secondary-color!important;
+      color: $accent-color!important;
+
+      &.last-month {
+        background-color: #ffc107 !important;
+        color: black !important;
+      }
+
+      .no-flippening {
+        font-size: 10px;
+      }
+    }
+
+    .segment {
+      border-width: 1px!important;
+      background-color: $primary-color!important;
+
+      &.last-month {
+        background-color: #ff9800 !important;
+      }
+    }
+
+    .button {
+      background-color: $primary-color;
+      color: $accent-color!important;
+      border-color: $accent-color!important;
+      border-width: 1px!important;
+      border-style: solid;
+
+      &.last-month {
+        background-color: #ff9800 !important;
+        color: black !important;
+      }
+    }
+  }
+
+  .year-buttons {
+    button {
+      margin-right: 15px;
+    }
+  }
+
+  .sold-out-button {
+    background-color: #d22020!important;
+  }
+
+  /* My NFTs */
+  .my-nfts {
+    .header {
+      border-width: 1px 1px 1px 1px!important;
+      background-color: $secondary-color!important;
+    }
+
+    .segment {
+      border-width: 1px!important;
+      background-color: $primary-color!important;
+    }
+
+    .button {
+      background-color: $primary-color;
+      color: $accent-color!important;
+      border-color: $accent-color!important;
+      border-width: 1px!important;
+      border-style: solid;
+    }
+
+    .meta-info {
+      font-size: 10px;
+    }
+
+    .transfer-modal {
+      display: flex!important;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .transferred-label {
+      color: green;
+    }
+
+    .error-message {
+      color: red;
+      font-weight: bold;
+    }
+
+    .nerd-info {
+      font-size:10px;
+    }
+
+    .transaction-notes {
+      color: white;
+    }
+  }
+
+  .my-nfts-grid {
+    .header {
+      border-width: 1px 1px 1px 1px!important;
+      background-color: $secondary-color!important;
+      color: $accent-color!important;
+    }
+
+    .segment {
+      border-width: 1px!important;
+      margin-bottom: 30px!important;
+    }
+  }
+
+  /* FAQ */
+  .faq-page {
+    .segment {
+      background-color: $primary-color!important;
+      border-width: 4px !important;
+      color: $accent-color !important;
+    }
+  }
+
+  /* FOOTER */
+  .footer {
+    margin-top: 10px!important;
+
+    .segment {
+      background-color: $primary-color !important;
+      color: $accent-color !important;
+      border-color: $accent-color !important;
+      border-width: 4px !important;
+      border-style: solid !important;
+    }
+
+    .flipping-btn {
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+}
