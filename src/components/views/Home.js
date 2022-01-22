@@ -17,7 +17,7 @@ const Home = () => {
 
           <p>
             Non Fungible Tokens (NFTs), on the other hand represent anything
-            <b>unique</b>. For instance, you cannot switch one student's belt
+            <b> unique</b>. For instance, you cannot switch one student's belt
             rank certificate with that of another student. The properties that
             make belt certificates non-fungible include the name, date, and
             rank.
@@ -45,7 +45,9 @@ const Home = () => {
         <div className="ui segment info-segment">
           <h4>How does it Work?</h4>
           <p>
-            There are three main items. Each school will organize all of their
+                      Although you can view this site on mobile, this is a tool designed for desktop browsers. </p>
+                  <p>
+                      There are three main items. Each school will organize all of their
             NFTs in a <b>Collection. </b> Each collection will have several{" "}
             <b>Badges</b>. Then, each of those badges can be used to mint
             individual <b>Tokens</b>. For example:{" "}
@@ -159,11 +161,11 @@ const Home = () => {
           <h4>What do I need to get started?</h4>
           <p>
             You will need a desktop computer and the <b>metamask</b>{" "}
-            <a href="https://metamask.io"> https:www.metamask.io </a> wallet
-            which is a browser extension for Chrome and other browsers. You will
+            <a href="https://metamask.io"> https://www.metamask.io </a> wallet
+            which is a browser extension for Chrome and other browsers. Make sure your metamask account is connected to Polygon. You will
             also need a way to <b>pin</b> images to the Interplanetary File
             System (IPFS). An easy and free way is to get an account at
-            <a href="https://www.pinata.cloud"> https://www.pinata.cloud </a> .
+            <a href="https://www.pinata.cloud"> https://www.pinata.cloud </a>.
             Finally, you will need maybe <b>$5 worth of Matic tokens</b> on the
             Polygon network. If you have an account with Crypto.com you can buy
             this with a credit card, and then withdraw the tokens to your
@@ -174,7 +176,7 @@ const Home = () => {
             Your students only need to provide you with their Ethereum address.
             They do NOT need to fund the address with anything. They do not need
             any account on any exchange, credit card, id documents, etc. They
-            can just create it for free in metamask. It's also recommended for
+            can just create the account for free in metamask. It's also recommended for
             privacy purposes that students create a NEW address only for
             collecting NFTs from your school. For instance, if someone was the
             'student of the month' and used his regular address, then others
@@ -197,7 +199,7 @@ const Home = () => {
             think that this will help with organization or value. For instance,
             one collection for promotional NFTs like <i>'2 weeks free'</i>, one
             collection for <i>'rank certifications'</i>, one for{" "}
-            <i>'event attendance'</i>
+            <i>'event attendance' </i>
             etc.
           </p>
           <h4>I like most of this but I want to change something</h4>
