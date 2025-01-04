@@ -12,7 +12,7 @@ and then
 npm start
 ```
 
-![dojo nft header](src/images/dojonft.jpg)
+<img src="src/images/dojonft.jpg" alt="dojo nft header" width="300">
 
 # Welcome to Dojo NFT!
 
