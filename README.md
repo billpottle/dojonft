@@ -12,6 +12,8 @@ and then
 npm start
 ```
 
+![dojo nft header](src/images/dojonft.jpg)
+
 # Welcome to Dojo NFT!
 
 If I give you one dollar, and you give me back one dollar, we are **EXACTLY** even, because every dollar is exactly the same as every other. This property is called being _fungible_.
